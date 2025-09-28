@@ -1,0 +1,46 @@
+.bodybox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    color: darkorange;
+
+
+}
+
+.article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: darkslategray;
+    border: dotted;
+    border-color: black;
+    border-radius:20px;
+}
+
+.aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: rgb(76, 40, 2);background-color: darkslategray;
+    border: dotted;
+    border-color: rgb(4, 64, 34);
+    border-radius:20px;
+    
+}
+
+.footer {
+    color: darkolivegreen;
+    background-color: rgb(12, 79, 57);
+}
+
+.header {
+    color: rgb(223, 102, 9);
+    background-color: rgb(72, 14, 14);
+    border: dotted;
+    border-color: cyan;
+    border-radius: 10px;
+}
