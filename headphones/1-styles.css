@@ -15,7 +15,7 @@ header {
 
 
 .navbar{
-    position:fixed;
+    position:relative;
     top: 0;
     left: 0;
     right: 0;
@@ -26,14 +26,16 @@ header {
     flex-direction: row;
     padding: 10px 40px;
     background-color: transparent;
-    list-style-type:none;
     align-items: center;
     justify-content: space-between;
     
-
 }
 
+.logo {
+    height:20px;
+    width: auto;
 
+}
 
 .pagelinks a{
     color: #FFFFFF;
@@ -112,4 +114,79 @@ body{
 .hero {
     display: flex;
     align-items: center;
+}
+
+.main-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: #071629;
+    padding: 40px;
+
+}
+
+h2 {
+    font-style: inherit;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.main-b > p {
+    align-self: center;
+      font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin-top: 20px;
+  width:637px;
+  height:184px
+}
+
+.subs {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1000px;
+    width: 100%;
+    gap: 40px;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex:1 1 auto;
+    align-items: center;
+}
+
+article > h3 {
+    padding:10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+article > h3:hover {
+   color: #FF6565;
+}
+
+article > p {
+    padding:10px;
+    text-align:center;
+}
+
+.icons {
+    width: 20px;
+    align-self: center;
+
+
 }
